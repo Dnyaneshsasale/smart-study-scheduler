@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://dnyaneshsasale_db_user:0ICeoYK7Z1IdwDeJ@ac-m4ego8v-shard-00-00.8lzqpga.mongodb.net:27017,ac-m4ego8v-shard-00-01.8lzqpga.mongodb.net:27017,ac-m4ego8v-shard-00-02.8lzqpga.mongodb.net:27017/?ssl=true&replicaSet=atlas-p3tk2g-shard-0&authSource=admin&appName=Cluster0')
+mongoose.connect('mongodb://dnyaneshsasale_db_user:Put your password @ac-m4ego8v-shard-00-00.8lzqpga.mongodb.net:27017,ac-m4ego8v-shard-00-01.8lzqpga.mongodb.net:27017,ac-m4ego8v-shard-00-02.8lzqpga.mongodb.net:27017/?ssl=true&replicaSet=atlas-p3tk2g-shard-0&authSource=admin&appName=Cluster0')
 .then(() => {
     console.log('MongoDB Connected Successfully');
 })
