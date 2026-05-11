@@ -13,7 +13,7 @@ app.use(express.static('public'));
 
 // MongoDB Atlas Connection
 mongoose.connect(
-'mongodb+srv://dnyaneshsasale_db_user:3BLRMY9Pc7Qy6cRY@cluster0.8lzqpga.mongodb.net/studySchedulerDB?retryWrites=true&w=majority'
+'mongodb+srv://dnyaneshsasale_db_user:Put Your own password @cluster0.8lzqpga.mongodb.net/studySchedulerDB?retryWrites=true&w=majority'
 )
 
 .then(() => {
