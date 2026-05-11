@@ -1,0 +1,54 @@
+STEP 1: Install Node.js
+
+Download:
+
+Node.js Official Website
+
+Install LTS version.
+
+Check:
+
+node -v
+npm -v
+STEP 2: Install Git
+
+Download:
+
+Git Official Website
+
+Check:
+
+git --version
+STEP 3: Clone Your GitHub Repository
+
+Open terminal:
+
+git clone https://github.com/Dnyaneshsasale/smart-study-scheduler.git
+STEP 4: Open Project Folder
+cd smart-study-scheduler
+STEP 5: Install Required Packages
+
+VERY IMPORTANT
+
+Run:
+
+npm install
+
+This installs:
+
+express
+mongoose
+ejs
+body-parser
+STEP 6: Start Project
+
+Run:
+
+node app.js
+STEP 7: Open Browser
+
+Open:
+
+http://localhost:3000
+
+Your project runs.
